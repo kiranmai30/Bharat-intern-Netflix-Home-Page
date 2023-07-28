@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://i.imgur.com/dXB5cfN.jpg");
+    background-repeat:no-repeat ;
+    background-size:auto;
+    position:absolute;
+
+
+}
+.img1
+{
+    font-size: 20px;
+    padding:5 15 10px 15px;
+    
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    margin-right:80px;
+}
+
+.header a{
+    color:white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    padding:0px 10px 30px 35px;
+    margin:20px;
+}
+.header a:hover
+{   color: red;
+
+}
+.v h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 120px;
+   margin-left: 350px;
+   padding:13px;
+
+    
+}
+.v h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 600px;
+ 
+
+}
+.v p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 500px;
+    padding:18px;
+}
+input[type="text"]
+{
+    width:200px;
+    height:30px;
+    color:white;
+    margin-left:550px;
+
+}
+.k
+{
+    width:100px;
+    height:30px;
+    display:inline-flex;
+    background-color: red;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.row
+{
+    padding-top: 250px;
+    margin-left:50px;
+}
+.row h3{
+    color:white;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.row h1{
+    color:white;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.col
+{
+
+    width:600px;
+    height:300px;
+    margin-left: 800px;
+
+}
+.row p{
+
+    color:white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.col1{
+    color:white;
+    font-size:5px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+
+}
+.row2 h3{
+    padding:20px;
+    margin-left:50px;
+    color:white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col2 img
+{
+    float:left;
+    box-shadow:0 0 20px 2px rgba(0,0,0,0.5,black);
+    width:350px;
+    padding:15px;
+    margin-left:10px;
+}
+.img-hei1
+{
+    height:210px;
+}
+
+.row2::after{
+    content:"";
+    display:table;
+    
+}
+.col2 img:hover{
+    transform: scale(1.1);
+    z-index:1;
+}
+.img-hei2
+{
+    height:210px;
+}
+.img-hei3
+{
+    height:210px;
+}
+.row3 h3{
+    padding:20px;
+    margin-left:50px;
+    color:white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col3 img
+{
+    float:left;
+    box-shadow:0 0 20px 2px rgba(0,0,0,0.5,black);
+    width:350px;
+    padding:15px;
+    margin-left:10px;
+}
+.row3::after{
+    content:"";
+    display:table;
+}
+.col3 img:hover{
+    transform: scale(1.1);
+    z-index:1;
+}
+.row4 h3
+{
+    padding:20px;
+    margin-left:50px;
+    color:white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.col4 img{
+    float:left;
+    box-shadow:0 0 20px 2px rgba(0,0,0,0.5,black);
+    width:350px;
+    padding:15px;
+    margin-left:10px;
+}
+.img-hei4
+{
+    height:200px;
+}
+.img-hei5
+{
+    height:200px;
+}
+.img-hei6
+{
+    height:200px;
+}
+.row4::after{
+    content:"";
+    display:table;
+
+}
+.col4 img:hover{
+    transform:scale(1.1);
+    z-index:1;
+}
+footer .container
+{
+    background-color: black;
+    width:1500px;
+}
+
+.footer-col
+{
+    
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    display:inline-flex;
+    justify-content:space-between;
+}
+.footer-col a{
+    font-family:'Poppins', sans-serif;
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+.heading
+{
+    color:white;
+   
+    padding-left:680px;
+    margin-top: 50px;
+    font-family:'Poppins', sans-serif;
+}
+heading .p1
+{
+    padding:5px;
+}
